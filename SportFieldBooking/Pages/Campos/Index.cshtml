@@ -1,0 +1,41 @@
+﻿@page
+@model SportFieldBooking.Pages.Campos.IndexModel
+@{
+	ViewData["Title"] = "Index Campos";
+}
+<h1>Lista de Campos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Ubicación</th>
+            <th>Tarifa por Hora</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Campos != null && Model.Campos.Count > 0)
+        {
+            foreach (var campo in Model.Campos)
+            {
+                <tr>
+                    <td>@campo.Nombre</td>
+                    <td>@campo.Tipo</td>
+                    <td>@campo.Ubicación</td>
+                    <td>@campo.TarifaHora:C</td>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No hay campos registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
