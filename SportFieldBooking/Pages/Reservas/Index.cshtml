@@ -1,0 +1,43 @@
+﻿@page
+@model SportFieldBooking.Pages.Reservas.IndexModel
+@{
+	ViewData["Title"] = " Index Reservas";
+}
+<h1>Lista de Reservas</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Campo</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Reservas != null && Model.Reservas.Count > 0)
+        {
+            foreach (var reserva in Model.Reservas)
+            {
+                <tr>
+                    <td>@reserva.Cliente.Nombre @reserva.Cliente.Apellido</td>
+                    <td>@reserva.Campo.Nombre</td>
+                    <td>@reserva.FechaHoraInicio</td>
+                    <td>@reserva.FechaHoraFin</td>
+                    <td>@reserva.Estado</td>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No hay reservas registradas.</td>
+            </tr>
+        }
+    </tbody>
+</table>
