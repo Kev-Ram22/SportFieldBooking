@@ -1,0 +1,43 @@
+﻿@page
+@model SportFieldBooking.Pages.Eventos.IndexModel
+@{
+	ViewData["Title"] = "Index Eventos";
+}
+<h1>Lista de Eventos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Campo</th>
+            <th>Fecha</th>
+            <th>Hora Inicio</th>
+            <th>Hora Fin</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Eventos != null && Model.Eventos.Count > 0)
+        {
+            foreach (var evento in Model.Eventos)
+            {
+                <tr>
+                    <td>@evento.NombreEvento</td>
+                    <td>@evento.Campo.Nombre</td>
+                    <td>@evento.FechaEvento.ToShortDateString()</td>
+                    <td>@evento.HoraInicio</td>
+                    <td>@evento.HoraFin</td>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No hay eventos registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>

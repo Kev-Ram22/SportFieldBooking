@@ -1,0 +1,43 @@
+﻿@page
+@model SportFieldBooking.Pages.Pagos.IndexModel
+@{
+	ViewData["Title"] = "Index Pagos";
+}
+<h1>Lista de Pagos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Reserva</th>
+            <th>Monto</th>
+            <th>Fecha</th>
+            <th>Método</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Pagos != null && Model.Pagos.Count > 0)
+        {
+            foreach (var pago in Model.Pagos)
+            {
+                <tr>
+                    <td>@pago.Reserva.Cliente.Nombre @pago.Reserva.Cliente.Apellido</td>
+                    <td>@pago.Reserva.IdReserva</td>
+                    <td>@pago.Monto:C</td>
+                    <td>@pago.FechaPago.ToShortDateString()</td>
+                    <td>@pago.MétodoPago</td>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No hay pagos registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
