@@ -1,0 +1,41 @@
+﻿@page
+@model SportFieldBooking.Pages.Clientes.IndexModel
+@{
+	ViewData["Title"] = " Index Clientes";
+}
+<h1>Lista de Clientes</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Clientes != null && Model.Clientes.Count > 0)
+        {
+            foreach (var cliente in Model.Clientes)
+            {
+                <tr>
+                    <td>@cliente.Nombre</td>
+                    <td>@cliente.Apellido</td>
+                    <td>@cliente.Teléfono</td>
+                    <td>@cliente.Email</td>
+                    <td>
+                        <span></span>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No hay clientes registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>

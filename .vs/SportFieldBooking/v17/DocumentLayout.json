@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\campos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\campos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\campos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\campos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 138,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Campos\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml.cs",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Campos\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:13:23.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "SportFieldBooking\\Pages\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T06:13:05.432Z",
+              "WhenOpened": "2024-11-21T06:30:07.064Z",
               "EditorCaption": ""
             }
           ]
