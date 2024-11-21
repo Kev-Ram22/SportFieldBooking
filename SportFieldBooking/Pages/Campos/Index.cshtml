@@ -5,6 +5,10 @@
 }
 <h1>Lista de Campos</h1>
 
+<p>
+    <a asp-page="./Create" class="btn btn-primary">Crear Nuevo Campo</a>
+</p>
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -24,7 +28,7 @@
                     <td>@campo.Nombre</td>
                     <td>@campo.Tipo</td>
                     <td>@campo.Ubicación</td>
-                    <td>@campo.TarifaHora:C</td>
+                    <td>@campo.TarifaHora</td>
                     <td>
                         <span></span>
                     </td>
