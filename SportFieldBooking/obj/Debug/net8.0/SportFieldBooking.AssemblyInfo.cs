@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportFieldBooking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c5d36e8ec6cc398bd04d469252cc22c19adcb3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b19167d7c80164b86231add36aa79bbd91aa853c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportFieldBooking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportFieldBooking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,44 @@
+﻿@page
+@model SportFieldBooking.Pages.Clientes.EditModel
+@{
+    ViewData["Title"] = "Editar Cliente";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Cliente</h4>
+<hr />
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Cliente.Nombre" class="control-label"></label>
+        <input asp-for="Cliente.Nombre" class="form-control" />
+        <span asp-validation-for="Cliente.Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Apellido" class="control-label"></label>
+        <input asp-for="Cliente.Apellido" class="form-control" />
+        <span asp-validation-for="Cliente.Apellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Teléfono" class="control-label"></label>
+        <input asp-for="Cliente.Teléfono" class="form-control" />
+        <span asp-validation-for="Cliente.Teléfono" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cliente.Email" class="control-label"></label>
+        <input asp-for="Cliente.Email" class="form-control" />
+        <span asp-validation-for="Cliente.Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        <a href="@Url.Page("./Index")" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

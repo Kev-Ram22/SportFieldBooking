@@ -14,10 +14,6 @@ namespace SportFieldBooking.Data
 		public DbSet<Pago> Pagos { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Campo>()
-                .Property(c => c.IdCampo)
-                .ValueGeneratedOnAdd();
-
             modelBuilder.Entity<Reserva>()
                 .HasOne(r => r.Campo)
                 .WithMany(c => c.Reservas)
