@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SportFieldBooking.Data;
 
@@ -11,9 +12,11 @@ using SportFieldBooking.Data;
 namespace SportFieldBooking.Migrations
 {
     [DbContext(typeof(SportFieldBookingContext))]
-    partial class SportFieldBookingContextModelSnapshot : ModelSnapshot
+    [Migration("20241122170226_Eventos")]
+    partial class Eventos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,6 +90,9 @@ namespace SportFieldBooking.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEvento"));
 
+                    b.Property<int>("CampoIdCampo")
+                        .HasColumnType("int");
+
                     b.Property<string>("Descripción")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -109,7 +115,7 @@ namespace SportFieldBooking.Migrations
 
                     b.HasKey("IdEvento");
 
-                    b.HasIndex("IdCampo");
+                    b.HasIndex("CampoIdCampo");
 
                     b.ToTable("Eventos");
                 });
@@ -182,7 +188,7 @@ namespace SportFieldBooking.Migrations
                 {
                     b.HasOne("SportFieldBooking.Models.Campo", "Campo")
                         .WithMany("Eventos")
-                        .HasForeignKey("IdCampo")
+                        .HasForeignKey("CampoIdCampo")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

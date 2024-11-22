@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\data\\sportfieldbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\data\\sportfieldbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\reservas\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\reservas\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\eventos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\eventos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\models\\campo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\models\\campo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,79 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SportFieldBookingContext.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Data\\SportFieldBookingContext.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Data\\SportFieldBookingContext.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Data\\SportFieldBookingContext.cs",
-              "RelativeToolTip": "SportFieldBooking\\Data\\SportFieldBookingContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBoAAAAAAAAAAAAAAA==",
+              "Title": "20241122170921_Eventos1.cs",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs",
+              "RelativeToolTip": "SportFieldBooking\\Migrations\\20241122170921_Eventos1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:26:49.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Reservas\\Index.cshtml",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Reservas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Reservas\\Index.cshtml",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Reservas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:22:39.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Campo.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Campo.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Models\\Campo.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Campo.cs",
-              "RelativeToolTip": "SportFieldBooking\\Models\\Campo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:17:13.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Cliente.cs",
-              "RelativeToolTip": "SportFieldBooking\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:16:56.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Reserva.cs",
-              "RelativeToolTip": "SportFieldBooking\\Models\\Reserva.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:15:30.988Z",
+              "WhenOpened": "2024-11-22T17:09:21.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Reservas\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Reservas\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Reservas\\Index.cshtml.cs*",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Reservas\\Index.cshtml.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBcAAAA1AAAAAAAAAA==",
+              "Title": "SportFieldBookingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Data\\SportFieldBookingContext.cs",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Data\\SportFieldBookingContext.cs",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Data\\SportFieldBookingContext.cs",
+              "RelativeToolTip": "SportFieldBooking\\Data\\SportFieldBookingContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:13:09.041Z",
+              "WhenOpened": "2024-11-22T17:07:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Models\\Evento.cs",
+              "RelativeToolTip": "SportFieldBooking\\Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:07:24.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Eventos\\Create.cshtml",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Eventos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Eventos\\Create.cshtml",
+              "RelativeToolTip": "SportFieldBooking\\Pages\\Eventos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T02:43:46.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Eventos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Eventos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Eventos\\Create.cshtml.cs",
+              "RelativeToolTip": "SportFieldBooking\\Pages\\Eventos\\Create.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:43:02.404Z",
               "EditorCaption": ""
             }
           ]
