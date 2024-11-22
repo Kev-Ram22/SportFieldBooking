@@ -1,0 +1,57 @@
+﻿@page
+@model SportFieldBooking.Pages.Reservas.EditModel
+@{
+    ViewData["Title"] = "Editar Reserva";
+
+}
+<h2>Editar Reserva</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Reserva.FechaHoraInicio" class="control-label"></label>
+        <input asp-for="Reserva.FechaHoraInicio" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Reserva.FechaHoraInicio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Reserva.FechaHoraFin" class="control-label"></label>
+        <input asp-for="Reserva.FechaHoraFin" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Reserva.FechaHoraFin" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Reserva.Estado" class="control-label"></label>
+        <select asp-for="Reserva.Estado" class="form-control">
+            <option>Reservado</option>
+            <option>Cancelado</option>
+            <option>Completado</option>
+        </select>
+        <span asp-validation-for="Reserva.Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Reserva.IdCampo" class="control-label"></label>
+        <select asp-for="Reserva.IdCampo" class="form-control">
+            @foreach (var campo in (List<SportFieldBooking.Models.Campo>)ViewData["Campos"])
+            {
+                <option value="@campo.IdCampo">@campo.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Reserva.IdCampo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Reserva.IdCliente" class="control-label"></label>
+        <select asp-for="Reserva.IdCliente" class="form-control">
+            @foreach (var cliente in (List<SportFieldBooking.Models.Cliente>)ViewData["Clientes"])
+            {
+                <option value="@cliente.IdCliente">@cliente.Nombre @cliente.Apellido</option>
+            }
+        </select>
+        <span asp-validation-for="Reserva.IdCliente" class="text-danger"></span>
+    </div>
+
+
+    <input type="submit" value="Guardar" class="btn btn-primary" />
+    <a asp-page="/Reservas/Index" class="btn btn-secondary">Cancelar</a>
+</form>
