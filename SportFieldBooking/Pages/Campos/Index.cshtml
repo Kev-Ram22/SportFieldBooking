@@ -30,6 +30,7 @@
                     <td>@campo.Ubicación</td>
                     <td>@campo.TarifaHora</td>
                     <td>
+                        <a asp-page="./Edit" asp-route-id="@campo.IdCampo" class="btn btn-primary">Editar</a>
                         <a asp-page="./Delete" asp-route-id="@campo.IdCampo" class="btn btn-danger btn-sm">Eliminar</a>
                     </td>
                 </tr>
