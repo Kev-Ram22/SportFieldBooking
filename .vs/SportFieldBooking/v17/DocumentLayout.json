@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\campos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\campos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\campos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\campos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\campos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\campos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|c:\\users\\zarkprogame\\mycode\\aitana\\sportfieldbooking\\sportfieldbooking\\pages\\clientes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DA3AE1-C390-4A58-9BC6-9E2B6A36924C}|SportFieldBooking\\SportFieldBooking.csproj|solutionrelative:sportfieldbooking\\pages\\clientes\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,39 +32,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Campos\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Delete.cshtml.cs",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Campos\\Delete.cshtml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCkAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Clientes\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Delete.cshtml.cs",
+              "RelativeToolTip": "SportFieldBooking\\Pages\\Clientes\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T18:00:33.164Z",
+              "WhenOpened": "2024-11-22T18:11:26.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Campos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Delete.cshtml",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Campos\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "SportFieldBooking\\Pages\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T18:00:30.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "RelativeDocumentMoniker": "SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zarkprogame\\MyCode\\Aitana\\SportFieldBooking\\SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "RelativeToolTip": "SportFieldBooking\\Pages\\Campos\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T17:58:00.903Z",
+              "WhenOpened": "2024-11-22T18:11:11.586Z",
               "EditorCaption": ""
             }
           ]

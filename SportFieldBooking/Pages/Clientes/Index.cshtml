@@ -30,7 +30,7 @@
                     <td>@cliente.Teléfono</td>
                     <td>@cliente.Email</td>
                     <td>
-                        <span></span>
+                        <a asp-page="./Delete" asp-route-id="@cliente.IdCliente" class="btn btn-danger btn-sm">Eliminar</a>
                     </td>
                 </tr>
             }
