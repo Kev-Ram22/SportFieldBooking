@@ -20,9 +20,9 @@ namespace SportFieldBooking.Pages.Reservas
         public async Task OnGetAsync()
         {
             Reservas = await _context.Reservas
-                                     .Include(r => r.Campo)
-                                     .Include(r => r.Cliente)
-                                     .ToListAsync();
+                             .Include(r => r.Campo)  
+                             .Include(r => r.Cliente)
+                             .ToListAsync();
         }
     }
 }

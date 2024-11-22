@@ -12,5 +12,18 @@ namespace SportFieldBooking.Data
 		public DbSet<Reserva> Reservas { get; set; }
 		public DbSet<Evento> Eventos { get; set; }
 		public DbSet<Pago> Pagos { get; set; }
-	}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Reserva>()
+                .HasOne(r => r.Campo)
+                .WithMany(c => c.Reservas)
+                .HasForeignKey(r => r.IdCampo);
+
+            modelBuilder.Entity<Reserva>()
+                .HasOne(r => r.Cliente)
+                .WithMany(c => c.Reservas)
+                .HasForeignKey(r => r.IdCliente);
+        }
+
+    }
 }

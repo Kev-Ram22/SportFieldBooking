@@ -1,0 +1,57 @@
+﻿@page
+@model SportFieldBooking.Pages.Reservas.CreateModel
+@{
+    ViewData["Title"] = "Crear Reserva";
+}
+
+<h1>Crear Nueva Reserva</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Cliente">Cliente</label>
+        <select asp-for="Reserva.IdCliente" asp-items="Model.Clientes" class="form-control" required>
+            <option value="">Seleccione un cliente</option>
+        </select>
+        <span asp-validation-for="Reserva.IdCliente" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Campo">Campo</label>
+        <select asp-for="Reserva.IdCampo" asp-items="Model.Campos" class="form-control" required>
+            <option value="">Seleccione un campo</option>
+        </select>
+        <span asp-validation-for="Reserva.IdCampo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="FechaHoraInicio">Fecha de Inicio</label>
+        <input asp-for="Reserva.FechaHoraInicio" class="form-control" type="datetime-local" required />
+        <span asp-validation-for="Reserva.FechaHoraInicio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="FechaHoraFin">Fecha de Fin</label>
+        <input asp-for="Reserva.FechaHoraFin" class="form-control" type="datetime-local" required />
+        <span asp-validation-for="Reserva.FechaHoraFin" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Estado">Estado</label>
+        <select asp-for="Reserva.Estado" asp-items="Model.Estados" class="form-control" required>
+            <option value="">Seleccione un estado</option>
+        </select>
+        <span asp-validation-for="Reserva.Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>
+
+<a href="@Url.Page("./Index")" class="btn btn-secondary">Cancelar</a>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

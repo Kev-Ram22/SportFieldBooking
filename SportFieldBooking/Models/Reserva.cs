@@ -6,14 +6,15 @@ namespace SportFieldBooking.Models
 	{
 		[Key]
 		public int IdReserva { get; set; }
-		public int IdCampo { get; set; } // FK
-		public int IdCliente { get; set; } // FK
-		public DateTime FechaHoraInicio { get; set; }
-		public DateTime FechaHoraFin { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime FechaHoraInicio { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime FechaHoraFin { get; set; }
 		public string Estado { get; set; } // Reservado, Cancelado, Completado
 
-		// Relaciones
-		public Campo Campo { get; set; }
-		public Cliente Cliente { get; set; }
-	}
+        public int IdCampo { get; set; } // FK
+        public Campo Campo { get; set; }
+        public int IdCliente { get; set; } // FK
+        public Cliente Cliente { get; set; }
+    }
 }
