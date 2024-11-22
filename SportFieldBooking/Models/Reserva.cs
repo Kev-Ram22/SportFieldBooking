@@ -16,5 +16,7 @@ namespace SportFieldBooking.Models
         public Campo Campo { get; set; }
         public int IdCliente { get; set; } // FK
         public Cliente Cliente { get; set; }
+
+        public ICollection<Pago> Pagos { get; set; }
     }
 }

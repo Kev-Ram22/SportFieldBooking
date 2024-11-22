@@ -28,8 +28,11 @@ namespace SportFieldBooking.Data
                 .HasOne(e => e.Campo)
                 .WithMany(c => c.Eventos)
                 .HasForeignKey(e => e.IdCampo);
+
+            modelBuilder.Entity<Pago>()
+                .HasOne(p => p.Reserva)
+                .WithMany(r => r.Pagos)
+                .HasForeignKey(p => p.IdReserva);
         }
-
-
     }
 }

@@ -5,6 +5,10 @@
 }
 <h1>Lista de Pagos</h1>
 
+<p>
+    <a asp-page="./Create" class="btn btn-primary">Crear Nuevo Pago</a>
+</p>
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -24,7 +28,7 @@
                 <tr>
                     <td>@pago.Reserva.Cliente.Nombre @pago.Reserva.Cliente.Apellido</td>
                     <td>@pago.Reserva.IdReserva</td>
-                    <td>@pago.Monto:C</td>
+                    <td>@pago.Monto</td>
                     <td>@pago.FechaPago.ToShortDateString()</td>
                     <td>@pago.MétodoPago</td>
                     <td>
