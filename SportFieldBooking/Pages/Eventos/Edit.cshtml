@@ -1,0 +1,62 @@
+﻿@page
+@model SportFieldBooking.Pages.Eventos.EditModel
+@{
+    ViewData["Title"] = "Editar Evento";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Evento</h4>
+<hr />
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Evento.NombreEvento" class="control-label"></label>
+        <input asp-for="Evento.NombreEvento" class="form-control" />
+        <span asp-validation-for="Evento.NombreEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Evento.FechaEvento" class="control-label"></label>
+        <input asp-for="Evento.FechaEvento" class="form-control" type="date" />
+        <span asp-validation-for="Evento.FechaEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Evento.HoraInicio" class="control-label"></label>
+        <input asp-for="Evento.HoraInicio" class="form-control" type="time" />
+        <span asp-validation-for="Evento.HoraInicio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Evento.HoraFin" class="control-label"></label>
+        <input asp-for="Evento.HoraFin" class="form-control" type="time" />
+        <span asp-validation-for="Evento.HoraFin" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Evento.Descripción" class="control-label"></label>
+        <textarea asp-for="Evento.Descripción" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Evento.Descripción" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Evento.IdCampo" class="control-label"></label>
+        <select asp-for="Evento.IdCampo" class="form-control">
+            <option value="">Seleccione un campo</option>
+            @foreach (var campo in (List<SportFieldBooking.Models.Campo>)ViewData["Campos"])
+            {
+                <option value="@campo.IdCampo">@campo.Nombre</option>
+            }
+        </select>
+        <span asp-validation-for="Evento.IdCampo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
