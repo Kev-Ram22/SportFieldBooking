@@ -1,0 +1,32 @@
+﻿@page
+@model SportFieldBooking.Pages.Pagos.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar Pago";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h3>¿Estás seguro de que deseas eliminar este pago?</h3>
+
+<div>
+    <h4>Detalles del Pago</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Monto</dt>
+        <dd class="col-sm-10">@Model.Pago.Monto.ToString("C")</dd>
+
+        <dt class="col-sm-2">Fecha del Pago</dt>
+        <dd class="col-sm-10">@Model.Pago.FechaPago.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-2">Método de Pago</dt>
+        <dd class="col-sm-10">@Model.Pago.MétodoPago</dd>
+
+        <dt class="col-sm-2">Reserva Asociada</dt>
+        <dd class="col-sm-10">ID Reserva: @Model.Pago.Reserva.IdReserva</dd>
+    </dl>
+</div>
+
+<form method="post">
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
